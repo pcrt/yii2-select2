@@ -1,0 +1,28 @@
+{
+	"name": "pcrt/yii2-select",
+	"description": "Yii2-select2 widget implementation",
+	"keywords": ["yii2", "theme", "helper", "assets", "select2"],
+	"license": "BSD-3-Clause",
+	"version": "0.9.0",
+	"authors": [
+		{
+			"name": "Marco Petrini",
+			"email": "info@protocollicreativi.it",
+			"homepage": "http://www.protocollicreativi.it"
+		}
+	],
+	"minimum-stability": "stable",
+	"support": {
+		"source": "https://github.com/pcrt/yii2-select2",
+		"issues": "https://github.com/pcrt/yii2-select2/issues"
+	},
+	"require": {
+		"php": ">=7.1",
+		"yiisoft/yii2": ">2.0.0",
+	},
+	"autoload": {
+		"psr-4": {
+			"pcrt\\": ""
+		}
+	}
+}
