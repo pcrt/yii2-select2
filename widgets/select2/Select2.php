@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @link http://www.protocollicreativi.it
+ * @copyright Copyright (c) 2017 Protocolli Creativi s.n.c.
+ * @license LICENSE.md
+ */
+
 namespace pcrt\widgets\select2;
 
 use yii\helpers\ArrayHelper;
@@ -7,6 +13,13 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\View;
 use yii\widgets\InputWidget;
+
+/**
+ * Yii2 implementation of Select2 widget 
+ * as InfiniteScroll implementing InfiniteScroll.js library (https://infinite-scroll.com/)
+ * as Paginator implementing simple-pagination.js library (http://flaviusmatis.github.io/simplePagination.js/)
+ * @author Marco Petrini <marco@bhima.eu>
+ */
 
 class Select2 extends InputWidget
 {
