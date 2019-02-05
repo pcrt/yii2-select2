@@ -16,8 +16,6 @@ use yii\widgets\InputWidget;
 
 /**
  * Yii2 implementation of Select2 widget 
- * as InfiniteScroll implementing InfiniteScroll.js library (https://infinite-scroll.com/)
- * as Paginator implementing simple-pagination.js library (http://flaviusmatis.github.io/simplePagination.js/)
  * @author Marco Petrini <marco@bhima.eu>
  */
 
