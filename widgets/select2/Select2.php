@@ -15,7 +15,7 @@ use yii\web\View;
 use yii\widgets\InputWidget;
 
 /**
- * Yii2 implementation of Select2 widget 
+ * Yii2 implementation of Select2 widget
  * @author Marco Petrini <marco@bhima.eu>
  */
 
@@ -75,6 +75,10 @@ class Select2 extends InputWidget
             $this->options['prompt'] = is_string($this->clientOptions['placeholder'])
                 ? $this->clientOptions['placeholder']
                 : ArrayHelper::getValue((array)$this->clientOptions['placeholder'], 'placeholder', '');
+        }
+        
+        if (!empty($this->clientOptions['required'])) {
+            $this->options['required'] = true;
         }
     }
 
